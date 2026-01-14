@@ -1,4 +1,4 @@
-import streamlit as st
+dimport streamlit as st
 import numpy as np
 import joblib
 import matplotlib.pyplot as plt
@@ -48,8 +48,8 @@ with c1:
     q2s = st.slider("q2 start (rad)", -3.14, 3.14, 0.0)
 
 with c2:
-    q1g = st.slider("q1 goal (rad)", -3.14, 3.14, 1.0)
-    q2g = st.slider("q2 goal (rad)", -3.14, 3.14, 1.0)
+    q1g = st.slider("q1 end (rad)", -3.14, 3.14, 1.0)
+    q2g = st.slider("q2 end (rad)", -3.14, 3.14, 1.0)
 
 st.divider()
 
@@ -115,3 +115,4 @@ st.markdown("""
 - Prediction is **orders of magnitude faster** than numerical optimization.
 - Learning-based methods are ideal for **real-time trajectory generation**.
 """)
+
