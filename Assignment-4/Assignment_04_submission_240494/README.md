@@ -85,7 +85,7 @@ The dashboard is implemented using **Streamlit**.
 |------|-------------|---------|
 | Accuracy | High | Slightly lower |
 | Computation Time | Slow | Very fast |
-| Real-time Use | ❌ | ✅ |
+| Real-time Use | NO | YES |
 | Scalability | Limited | High |
 
 ---
